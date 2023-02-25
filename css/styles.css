@@ -88,7 +88,25 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+.summary {
+  text-align: start;
+}
+
 @media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  summary {
+    text-align: center;
+  }
+
   .weather-image {
     padding-top: 30px;
   }

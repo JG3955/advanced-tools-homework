@@ -86,3 +86,19 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .weather-image {
+    padding-top: 50px;
+  }
+  .thumbnails {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .yogurt-image {
+    padding-top: 10px;
+  }
+}
